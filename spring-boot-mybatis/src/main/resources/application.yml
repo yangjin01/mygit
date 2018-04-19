@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+    datasource:
+        name: yangjin
+        url: jdbc:mysql://localhost:3306/yangjin
+        username: root
+        password: 123456789
+        driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.tyjy.app.entity
